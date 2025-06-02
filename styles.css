@@ -95,18 +95,27 @@ section p {
     text-align: center;
 }
 
-.btn-download {
-    display: inline-block;
-    background-color: #4a90e2;
-    color: white;
-    padding: 12px 28px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
 .btn-download:hover {
     background-color: #357ABD;
 }
+.download-cv {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-download {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background-color: #357ABD;
+}
+
